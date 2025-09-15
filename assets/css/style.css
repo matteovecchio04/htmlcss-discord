@@ -77,13 +77,6 @@ header{
     background-color: var(--ds-primary-color);
 }
 
-.btn {
-    border-radius: 1rem;
-    padding: 0.4rem;
-    border-style: none;
-    font-size: 15px;
-}
-
 .banner {
     justify-content: space-around;
     align-items: center;
@@ -112,9 +105,8 @@ header{
 }
 
 .block {
-    width: 70%;
-    height: 200px;
-    margin-bottom: 5px;
+    width: 35%;
+    height: 350px;
 }
 
 .block-small {
@@ -132,7 +124,7 @@ header{
 }
 
 .block2 {
-    width: 30%;
+    width: 25%;
 }
 
 .content {
@@ -150,6 +142,7 @@ header{
     text-align: center;
 }
 
+
 /* common rules*/
 
 .light-txt {
@@ -161,12 +154,13 @@ a {
 }
 
 p {
-    margin-bottom: 5px;
+    font-size: 18px;
+    margin-bottom: 1.5rem;
 }
 
 h1 {
-    font-size: 35px;
-    margin-bottom: 5px;
+    font-size: 40px;
+    margin-bottom: 1.5rem;
 }
 
 .d-flex {
@@ -200,4 +194,11 @@ h1 {
 .bg-black {
     background-color: var(--ds-dark-color);
     color: var(--ds-light-color);
+}
+
+.btn {
+    border-radius: 1rem;
+    padding: 0.6rem;
+    border-style: none;
+    font-size: 15px;
 }
