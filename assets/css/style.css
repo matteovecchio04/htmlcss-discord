@@ -5,6 +5,13 @@
 
 }
 
+:root {
+    --ds-light-color: #ffffff;
+    --ds-dark-color: #000000;
+    --ds-primary-color: #3161e0;
+
+}
+
 .debug {
     margin: 1px;
     width: 80%;
@@ -23,55 +30,58 @@
         background: red;
     }
 
-    .content{
+    .content {
         border-color: red;
         background-color: blueviolet;
     }
 
-    .block1{
+    .block1 {
         border: 2px dotted black;
         background: red;
     }
 
-    .block2{
+    .block2 {
         border: 2px dotted black;
         background: red;
     }
 
-    .block-line{
+    .block-line {
         border: 2px dotted black;
         background: red;
     }
 
-    .block-small{
+    .block-small {
         border: 2px dotted black;
         background: red;
     }
 
-    .block-thin{
+    .block-thin {
         border: 2px dotted black;
         background: red;
     }
 }
 
-body{
-    background-color: #3161e0;
+body {
+    background-color: var(--ds-light-color);
+}
+
+header{
+    background-color: var(--ds-primary-color);
 }
 
 .menu {
-    display: flex;
-    justify-content: space-between;
     width: 80%;
     margin: auto;
     align-items: center;
     height: 4rem;
-    background-color: #3161e0;
+    background-color: var(--ds-primary-color);
 }
 
-.log-in {
+.btn {
     border-radius: 1rem;
     padding: 0.4rem;
     border-style: none;
+    font-size: 15px;
 }
 
 .banner {
@@ -131,20 +141,32 @@ body{
     padding: 30px;
 }
 
-.txt-light{
+.txt-light {
     color: var(--ds-light-color);
     text-align: center;
 }
-/* common rules*/
-:root{
-    --ds-light-color: #ffffff;
-    --ds-dark-color: #000000;
 
+.img{
+    width: 500px;
+}
+
+/* common rules*/
+
+.light-txt {
+    color: var(--ds-light-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin-bottom: 5px;
 }
 
 h1 {
-    color: var(--ds-light-color);
     font-size: 35px;
+    margin-bottom: 5px;
 }
 
 .d-flex {
@@ -171,6 +193,11 @@ h1 {
     justify-content: space-around;
 }
 
-.align-center{
+.align-center {
     align-content: center;
+}
+
+.bg-black {
+    background-color: var(--ds-dark-color);
+    color: var(--ds-light-color);
 }
