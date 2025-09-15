@@ -9,7 +9,7 @@
     --ds-light-color: #ffffff;
     --ds-dark-color: #000000;
     --ds-primary-color: #3161e0;
-
+    --ds-discord-color: #8ea1e1;
 }
 
 .debug {
@@ -117,6 +117,7 @@ header {
 
 .block1 {
     width: 60%;
+    margin-bottom: 2rem;
 }
 
 .block1 img {
@@ -149,6 +150,12 @@ header {
     background-size: cover;
 }
 
+.bg-stars{
+    background-image: url(../img/stars.svg);
+    text-align: center;
+    width: 53%;
+}
+
 /* common rules*/
 
 .light-txt {
@@ -167,6 +174,11 @@ p {
 h1 {
     font-size: 40px;
     margin-bottom: 1.5rem;
+}
+
+h3{
+    text-align: center;
+    font-size: 25px;
 }
 
 .d-flex {
@@ -207,4 +219,12 @@ h1 {
     padding: 0.6rem;
     border-style: none;
     font-size: 15px;
+}
+
+.txt-center{
+    text-align: center;
+}
+
+.discord{
+    background-color: var(--ds-discord-color);
 }
