@@ -1,0 +1,122 @@
+.debug {
+    margin: 1px;
+    border-style: dotted;
+    background-color: greenyellow;
+    width: 80%;
+    margin: 0 auto;
+
+    header{
+        height: 100px;
+    }
+}
+
+body {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    background-color: aqua;
+}
+
+.log-in {
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 1rem;
+    padding: 0.4rem;
+}
+
+.banner {
+    justify-content: space-around;
+    align-items: center;
+    border: 2rem;
+    border-color: red;
+    background-color: blueviolet;
+    margin-bottom: 2rem;
+    padding: 30px;
+}
+
+.block-line {
+    width: 70%;
+    height: 50px;
+    border: 2px dotted black;
+    background: red;
+    margin-bottom: 5px;
+}
+
+.block-thin {
+    width: 100px;
+    height: 400px;
+    border: 2px dotted black;
+    background: red;
+    margin-bottom: 5px;
+}
+
+.block {
+    width: 70%;
+    height: 200px;
+    border: 2px dotted black;
+    background: red;
+    margin-bottom: 5px;
+}
+
+.block-small {
+    width: 200px;
+    height: 50px;
+    border: 2px dotted black;
+    background: red;
+    margin-bottom: 5px;
+}
+
+.block1 {
+    width: 150px;
+    height: 200px;
+    border: 2px dotted black;
+    background: red;
+}
+
+.block2 {
+    width: 300px;
+    height: 200px;
+    border: 2px dotted black;
+    background: red;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    border: 2rem;
+    border-color: red;
+    background-color: blueviolet;
+    margin-bottom: 2rem;
+    padding: 30px;
+}
+
+/* common */
+.d-flex {
+    display: flex;
+}
+
+.flex-dir-col{
+    flex-direction: column ;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.row-reverse{
+    flex-direction: row-reverse;
+}
+
+.space-bet{
+    justify-content: space-between;
+}
+
+.space-aro{
+    justify-content: space-around;
+}
